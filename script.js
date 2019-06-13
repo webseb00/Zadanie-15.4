@@ -13,7 +13,9 @@ console.log(multiply(4, 5));
 console.log(multiply(4, 8));
 console.log(multiply(4));
 
-//Zadanie nr. 3.------------
+//Zadanie nr. 3 i 4 .------------
+
+const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1]
 
 const average = (...args) => {
   
@@ -26,20 +28,7 @@ const average = (...args) => {
 
 average(1,3);
 
-//Zadanie nr. 4.------------
-
-// const average = (...args) => {
-  
-//   let nums = [];
-//   args.forEach(arg => nums.push(arg));
-//   let total = nums.reduce((a,b) => { return a + b; });
-//   console.log(total/nums.length);
-  
-// }
-
-// const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1]
-
-// average(...grades);
+average(...grades);
 
 //Zadanie nr. 5.------------
 
